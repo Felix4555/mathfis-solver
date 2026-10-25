@@ -1,0 +1,12 @@
+# ads.txt de MathFis Solver
+# ---------------------------------------------------------------------------
+# Cuando Google AdSense apruebe el sitio:
+#   1. AdSense -> Cuenta -> Informacion de la cuenta: copia tu ID (pub-...)
+#   2. Descomenta la ultima linea y sustituye pub-XXXXXXXXXXXXXXXX por tu ID
+#   3. Deja el identificador f08c47fec0942fa0 (es el de Google)
+#
+# Mientras tanto este archivo no declara ningun vendedor autorizado, que es
+# justo lo correcto: un ID falso o de ejemplo hace que AdSense rechace la
+# cuenta por "ads.txt no valido".
+#
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

@@ -1,0 +1,30 @@
+{
+  "name": "mathfis-solver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MathFis Solver - Resuelve problemas de matematicas y fisica paso a paso",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "katex": "^0.16.11",
+    "lucide-react": ">=0.400.0 <1.0.0",
+    "next": "^15.5.28",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.7",
+    "@types/node": "^20.14.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.4.5"
+  }
+}
