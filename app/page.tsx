@@ -19,6 +19,7 @@ import {
 } from "@/lib/storage";
 import type { SolveResult } from "@/lib/solver/types";
 import { PopularProblems } from "@/components/seo/PopularProblems";
+import { HomeSeoHeader, HomeSeoSection } from "@/components/seo/HomeSeoSection";
 
 export default function Home() {
   // ------------------- Preferencias persistentes -------------------
@@ -149,6 +150,8 @@ export default function Home() {
       />
 
       <main className="mx-auto max-w-7xl px-3 py-5 sm:px-6 sm:py-7">
+        {view === "solver" && <HomeSeoHeader />}
+
         {view === "solver" && (
           <div className="grid items-start gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)]">
             <div className="lg:sticky lg:top-20">
@@ -176,6 +179,8 @@ export default function Home() {
 
         {view === "solver" && <PopularProblems />}
 
+        {view === "solver" && <HomeSeoSection />}
+
         {view === "practice" && <PracticePanel t={t} />}
 
         {(view === "history" || view === "favorites") && (
@@ -194,6 +199,11 @@ export default function Home() {
       <footer className="no-print border-t border-border py-6 text-center text-xs text-muted-foreground">
         <p>
           {t("app.name")} · {t("app.tagline")}
+        </p>
+        <p className="mx-auto mt-2 max-w-2xl px-4 text-[11px] leading-relaxed opacity-80">
+          Herramienta educativa asistida por inteligencia artificial y cálculo simbólico. Concebida
+          para aprender el método deductivo paso a paso. Recuerda verificar siempre tus resultados
+          para fines académicos o profesionales.
         </p>
         <p className="mt-2 flex flex-wrap justify-center gap-x-3 gap-y-1">
           <a href="/resolver" className="text-primary underline hover:opacity-90">

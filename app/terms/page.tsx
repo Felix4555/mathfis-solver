@@ -23,48 +23,57 @@ export default function TermsPage() {
         {
           h: "1. Objeto del servicio",
           p: [
-            "MathFis Solver es una herramienta educativa gratuita que resuelve problemas de matemáticas y física mostrando el desarrollo paso a paso, las fórmulas empleadas y, cuando procede, una representación gráfica.",
-            "El servicio tiene finalidad exclusivamente académica y de aprendizaje.",
+            "MathFis Solver es una herramienta educativa gratuita orientada al aprendizaje de matemáticas y física mediante la exposición del desarrollo paso a paso, las fórmulas empleadas y representaciones gráficas interactivas.",
+            "El servicio tiene una finalidad estrictamente formativa, didáctica y de apoyo al estudio.",
           ],
         },
         {
-          h: "2. Naturaleza de los resultados",
+          h: "2. Uso de Inteligencia Artificial y Transparencia Algorítmica",
           p: [
-            "Las soluciones se generan de forma automática. Aunque el motor está pensado para ser riguroso, no garantizamos que estén libres de errores, especialmente ante enunciados ambiguos, erróneos o fuera de los temas soportados.",
-            "El resultado debe revisarse y comprenderse antes de usarlo. No sustituye a un libro de texto, a un profesor ni a la corrección oficial de un examen.",
-            "Es responsabilidad del usuario (o de su centro educativo o familia) verificar los datos antes de tomar cualquier decisión basada en ellos.",
+            "De conformidad con las normativas internacionales de transparencia en sistemas automatizados (incluido el Reglamento de Inteligencia Artificial de la Unión Europea - EU AI Act), se informa expresamente al usuario de que MathFis Solver emplea algoritmos de procesamiento simbólico, heurísticas computacionales e inteligencia artificial para la transcripción OCR de imágenes, el reconocimiento de lenguaje natural y la generación estructurada de explicaciones.",
+            "Al interactuar con el servicio, el usuario comprende y acepta que está recibiendo respuestas y desarrollos asistidos por sistemas automatizados.",
           ],
         },
         {
-          h: "3. Uso aceptable",
+          h: "3. Naturaleza de los resultados y descargo sobre IA",
           p: [
-            "Se permite el uso personal y en el aula. Queda prohibido: extraer o reutilizar masivamente el contenido para crear un servicio competidor, interferir con el funcionamiento del sitio, intentar eludir los límites de uso del servicio o utilizar el sistema para fines ilícitos.",
-            "El envío de problemas está sujeto a límites razonables de uso para mantener el servicio disponible para todos.",
+            "Los sistemas automatizados y basados en IA pueden generar resultados imprecisos, omisiones, aproximaciones numéricas o interpretaciones no deseadas (fenómenos conocidos como imprecisiones algorítmicas o alucinaciones), especialmente ante enunciados redactados de forma ambigua, datos contradictorios o problemas fuera del temario estándar.",
+            "Las soluciones y desarrollos no constituyen certificación oficial, peritaje técnico, asesoría de ingeniería ni corrección académica reglada. Es responsabilidad exclusiva del usuario contrastar y verificar todo procedimiento y resultado antes de utilizarlo.",
+            "Queda expresamente prohibido el uso de los cálculos generados por MathFis Solver para el diseño, cálculo o toma de decisiones en proyectos de ingeniería crítica, edificación, salud, seguridad o infraestructuras donde un error matemático pudiera ocasionar perjuicios materiales o personales.",
           ],
         },
         {
-          h: "4. Propiedad intelectual",
+          h: "4. Integridad académica y código de honor",
           p: [
-            "La interfaz, el diseño, el código y los textos explicativos del sitio son propiedad de MathFis Solver. Los problemas que tú escribes son tuyos y no reclamamos derecho alguno sobre ellos.",
-            "Las fórmulas y los resultados matemáticos no están sujetos a derechos de autor; el resto del contenido sí.",
+            "MathFis Solver está concebido para fomentar la comprensión profunda del método deductivo y ayudar a los estudiantes a superar bloqueos en su estudio personal.",
+            "El usuario se compromete a actuar con integridad y a no utilizar este servicio para cometer fraude académico, plagio o saltarse las normas de conducta de sus respectivos centros educativos o universidades, prohibiéndose su empleo durante exámenes, evaluaciones formales o pruebas de acceso supervisadas.",
           ],
         },
         {
-          h: "5. Enlaces y servicios de terceros",
+          h: "5. Uso aceptable y límites de servicio",
           p: [
-            "El sitio incluye recursos de terceros (tipografías y librerías servidas desde CDN, y, si se muestran, anuncios de redes publicitarias). Sus políticas de privacidad y condiciones son responsabilidad de cada proveedor.",
+            "Se autoriza el uso individual, educativo y docente en aulas escolares. Queda prohibida la extracción masiva de datos (scraping), la ingeniería inversa, la saturación deliberada de las API (ataques de denegación de servicio) o cualquier intento de vulnerar las restricciones técnicas del sistema.",
+            "Para garantizar la disponibilidad gratuita para toda la comunidad de estudiantes, se aplican límites de tasa de peticiones (rate limiting) por usuario.",
           ],
         },
         {
-          h: "6. Limitación de responsabilidad",
+          h: "6. Propiedad intelectual",
           p: [
-            "El servicio se presta «tal cual». En la máxima medida permitida por la ley, no respondemos por daños directos o indirectos derivados del uso o la imposibilidad de uso del sitio, incluidos errores de cálculo, interrupciones o decisiones tomadas a partir de las soluciones mostradas.",
+            "Los enunciados, textos y preguntas que introduzcas en el sistema siguen siendo de tu autoría; MathFis Solver no reclama derechos de propiedad sobre ellos.",
+            "Las leyes físicas universales, teoremas y fórmulas matemáticas pertenecen al dominio público común.",
+            "La plataforma, su código fuente, arquitectura de software, diseño gráfico, selección tipográfica, elementos interactivos y guías didácticas originales son propiedad exclusiva de MathFis Solver y están protegidos por las leyes de propiedad intelectual.",
           ],
         },
         {
-          h: "7. Modificaciones",
+          h: "7. Limitación de responsabilidad",
           p: [
-            "Podemos modificar, suspender o retirar funcionalidades en cualquier momento sin preaviso. El uso continuado tras un cambio implica la aceptación de la versión vigente.",
+            "El servicio se presta «tal cual» (as-is) y «según disponibilidad». En la medida máxima permitida por la legislación aplicable, MathFis Solver no responderá por daños directos, indirectos, incidentales o consecuentes derivados del uso, la exactitud de los resultados o la indisponibilidad temporal del sitio.",
+          ],
+        },
+        {
+          h: "8. Modificaciones",
+          p: [
+            "Nos reservamos el derecho de actualizar o modificar estas condiciones para adaptarlas a novedades técnicas, legislativas o funcionales. La fecha de la última revisión se encuentra indicada al inicio.",
           ],
         },
       ]}

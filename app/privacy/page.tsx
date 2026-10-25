@@ -23,50 +23,43 @@ export default function PrivacyPage() {
         {
           h: "1. Responsable del sitio",
           p: [
-            "MathFis Solver es una herramienta educativa gratuita de código propietario, orientada a estudiantes de matemáticas y física. Para cualquier consulta sobre privacidad puedes escribir a la dirección de contacto indicada en la página de contacto.",
+            "MathFis Solver es una herramienta educativa gratuita orientada a estudiantes y docentes de matemáticas y física. Para cualquier consulta referente al tratamiento de datos o privacidad, puedes escribir a la dirección de contacto indicada en nuestra página de contacto.",
           ],
         },
         {
-          h: "2. Datos que recogemos",
+          h: "2. Datos que tratamos y procesamiento de IA",
           p: [
-            "Datos introducidos por ti: el texto del problema que escribes, dictas o subes como imagen se envía a nuestro servidor exclusivamente para resolverlo. No se asocia a ninguna identidad y no se guarda en servidores de forma permanente.",
-            "Almacenamiento local (localStorage): el historial de problemas, los favoritos, el idioma y el tema (claro/oscuro) se guardan en TU navegador, en tu propio equipo. Puedes borrarlos en cualquier momento limpiando los datos del sitio desde la configuración del navegador.",
-            "Datos técnicos: como cualquier sitio web, podremos recibir información anónima del navegador (tipo de navegador, dispositivo, páginas visitadas) con finalidad estadística.",
+            "Texto del problema y dictado por voz: El texto que escribes o dictas se procesa en tiempo real con el único propósito de interpretar la consulta matemática o física y calcular la solución paso a paso. No se vincula a tu identidad personal.",
+            "Imágenes y fotos subidas (OCR): Al subir una fotografía de un ejercicio para su reconocimiento óptico, la imagen es procesada directamente en el navegador del usuario (mediante Tesseract.js / WebAssembly) o de forma estrictamente efímera en memoria. MathFis Solver NO almacena las imágenes en ningún servidor permanente, ni recopila metadatos de ubicación EXIF, ni extrae datos biométricos o faciales.",
+            "No entrenamiento de modelos públicos: Tus problemas y consultas no se emplean para entrenar modelos externos de inteligencia artificial comercial ni se venden a terceros.",
+            "Almacenamiento local (localStorage): Tu historial de consultas, ejercicios favoritos, idioma y preferencia de modo oscuro se almacenan localmente en tu propio dispositivo a través de la tecnología localStorage del navegador. Puedes borrarlos en cualquier momento desde la interfaz o vaciando los datos de tu navegador.",
           ],
         },
         {
-          h: "3. Cookies y tecnologías similares",
+          h: "3. Protección especial de menores de edad (COPPA / RGPD de Menores)",
           p: [
-            "Usamos cookies o almacenamiento local para: recordar tu preferencia de idioma y tema, mantener la elección de consentimiento de cookies y, si lo aceptas, medir el tráfico de forma agregada.",
-            "Puedes eliminar o bloquear las cookies desde la configuración de tu navegador sin que deje de funcionar el resolutivo. Solo la preferencia de consentimiento y las preferencias de interfaz se perderán.",
+            "MathFis Solver es un recurso educativo de acceso público frecuentado por estudiantes de educación primaria, secundaria y bachillerato, muchos de los cuales son menores de edad.",
+            "Diseño de privacidad estricto para menores: No requerimos la creación de cuentas de usuario, ni solicitamos nombres, correos electrónicos, números de teléfono, edad ni centros escolares para acceder a las soluciones.",
+            "Recomendamos que los menores de 14 años cuenten con la orientación y consentimiento de sus padres, madres o tutores legales al navegar por internet y utilizar herramientas educativas digitales.",
           ],
         },
         {
-          h: "4. Servicios de terceros y publicidad",
+          h: "4. Cookies y tecnologías de terceros",
           p: [
-            "Este sitio puede mostrar anuncios de terceros, servidos a través de Google AdSense. Google y sus socios pueden utilizar cookies para mostrar anuncios en función de tus visitas anteriores a este u otros sitios web.",
-            "Google usa la cookie DART para publicar anuncios según tu visita a este sitio y a otros de Internet. Puedes salir de la utilización de la cookie DART visitando la política de privacidad de la red de contenido de Google.",
-            "Los anunciantes pueden recopilar información como tu dirección IP, el navegador o el dispositivo que usas. Google trata esos datos según su propia política de privacidad, que puedes consultar en https://policies.google.com/privacy.",
-            "Solo se cargan los scripts de medición o publicidad cuando tú lo autorizas mediante el aviso de cookies. Si lo rechazas, no se establecerán cookies de publicidad o personalización.",
+            "Cumplimos con el estándar Google Consent Mode v2: por defecto, cualquier cookie de analítica o publicidad personalizada permanece estrictamente bloqueada hasta que el usuario decida aceptarla voluntariamente en el aviso de consentimiento.",
+            "El sitio puede mostrar anuncios servidos a través de la red de Google AdSense. Google y sus asociados pueden emplear identificadores seudónimos para mostrar anuncios relevantes según tu navegación previa. Puedes consultar la política de Google en https://policies.google.com/privacy.",
           ],
         },
         {
-          h: "5. Datos que NO recogemos",
+          h: "5. Derechos del usuario",
           p: [
-            "No exigimos cuentas de usuario, ni nombre, correo, teléfono ni documento de identidad. No vendemos ni cedemos información a terceros con fines comerciales.",
-            "No usamos los problemas que escribes para entrenar modelos ni los compartimos con servicios de inteligencia artificial externos: el cálculo se realiza con el motor propio de MathFis Solver.",
+            "Garantizamos el pleno ejercicio de tus derechos de acceso, rectificación, supresión, limitación y oposición reconocidos por el Reglamento General de Protección de Datos (RGPD) de la Unión Europea, la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP) de México, la Ley 25.326 de Argentina, la Ley 1581 de Colombia y normativas equivalentes. Dado que no almacenamos datos vinculados a tu identidad, cualquier historial local puede eliminarse instantáneamente pulsando el botón de papelera en el panel de historial.",
           ],
         },
         {
-          h: "6. Derechos del usuario",
+          h: "6. Modificaciones",
           p: [
-            "Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición y limitación escribiéndonos. Si resides en el Espacio Económico Europeo, se aplican además las garantías del RGPD; si estás en México, la LFPDPPP; y en Argentina, la Ley 25.326 de Protección de Datos Personales.",
-          ],
-        },
-        {
-          h: "7. Cambios en esta política",
-          p: [
-            "Podemos actualizar esta política para reflejar cambios normativos o funcionales. La fecha de la última actualización aparece al inicio de la página.",
+            "Esta política de privacidad podrá actualizarse periódicamente para reflejar mejoras en la plataforma o cambios legislativos. Te invitamos a revisarla regularmente.",
           ],
         },
       ]}
